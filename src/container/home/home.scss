@@ -1,0 +1,67 @@
+.home {
+    color: hsla(4, 100%, 54%, 0.733);
+    display: flex;
+    flex-direction: column; /* Ensure the button comes after the text */
+    align-items: center;
+    justify-content: center; /* This centers the content vertically */
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+    animation:0.5s text-animation 0.01s steps(40,)
+  }
+  @keyframes text-animation{
+        from{
+            width:0px;
+        }
+        to{
+            width:100%;
+        }
+  }
+  
+
+  
+  .button-contact {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+    margin-top: 15px;
+    padding: 0;
+    width: 100%; /* Ensures that flexbox can center the button horizontally */
+  }
+  
+  button {
+    padding: 15px 20px;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 3px;
+    background:transparent;
+    color: red;
+    font-weight: bold;
+    font-weight: 540px;
+    margin-bottom: 0px;
+    font-family:  sans-serif;
+    &:hover{
+        background: #ff2a00;
+        color:#ffffff
+  
+    }
+  
+    
+
+  }
+
+  

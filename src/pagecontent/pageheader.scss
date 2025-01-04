@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Space between the text and the icon */
+    align-items: center; /* Aligns the text and icon vertically */
+    padding: 20px;
+    border:none;
+    border-bottom: 1px dashed #fc1111; /* Optional: add a dotted border similar to your example */
+    color: #fc1111; /* Matches the yellow text color in the example */
+    height: 25vh;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 36px; /* Adjust this to match the font size you want */
+    font-weight: bold;
+    
+   
+  }
+  
+  .icon {
+    font-size: 40px; /* Icon size */
+    color: #fc1111; /* Matches the icon color */
+  }
+  
