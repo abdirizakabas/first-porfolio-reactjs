@@ -1,7 +1,7 @@
 import { Animate, AnimateKeyframes } from 'react-simple-animate';
 import Pageheader from '../../pagecontent/Pageheader';
 import './skills.scss';
-import { BsCircleFill } from "react-icons/bs";
+import { FaCode } from 'react-icons/fa';
 import { Progress } from 'rsuite';
 import ProgressLine from 'rsuite/esm/Progress/ProgressLine';
 import { Line } from 'rc-progress';
@@ -11,26 +11,26 @@ const Skills = () => {
     {
       label: "Programming Languages",
       data: [
-        { name: "Python", percentage: "80%" },
-        { name: "C++", percentage: "90%" },
-        { name: "JavaScript", percentage: "99%" },
-        { name: "HTML", percentage: "80%" },
-        { name: "TailwindCSS", percentage: "87%" },
+        { name: "Python", percentage: "80" },
+        { name: "C++", percentage: "90" },
+        { name: "JavaScript", percentage: "99" },
+        { name: "HTML", percentage: "80" },
+        { name: "TailwindCSS", percentage: "87" },
       ],
     },
     {
       label: "Tools",
       data: [
-        { name: "VSCode", percentage: "100%" },
-        { name: "Git", percentage: "90%" },
-        { name: "GitHub", percentage: "95%" },
+        { name: "VSCode", percentage: "100" },
+        { name: "Git", percentage: "90" },
+        { name: "GitHub", percentage: "95" },
       ],
     },
   ];
 
   return (
     <section id="skills" className="skills">
-      <Pageheader textHeader="Skills" Icon={<BsCircleFill size={23} />} />
+      <Pageheader textHeader="Skills" Icon={<FaCode size={23} />} />
       <div className="skill_content">
         {skillData.map((item, i) => (
           <Animate
@@ -57,7 +57,7 @@ const Skills = () => {
                         percent={skill.percentage}
                         strokeColor="#fc1111"
                         strokeWidth="2"
-                        trailWidth="2"
+                        trailWidth="2"//waa inta yar ee cad
                         strokeLinecap='square'
                       >
 

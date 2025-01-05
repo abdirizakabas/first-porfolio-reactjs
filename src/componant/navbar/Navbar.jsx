@@ -15,9 +15,6 @@ const data=[
         label:"about",to:'/about'
     },
     {
-        label:"portfolio",to:'/portfolio'
-    },
-    {
         label:"contact",to:'/contact'
     },
     {

@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     height: 90vh;
+  
     text-align: center;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
@@ -21,11 +22,11 @@
     font-size: 2rem;
     font-weight: bold;
     line-height: 3rem;
-    animation:0.5s text-animation 0.01s steps(40,)
+    animation:0.5s text-animation 0.01s steps(5,);
   }
   @keyframes text-animation{
         from{
-            width:0px;
+          width: 100%;
         }
         to{
             width:100%;
@@ -36,11 +37,11 @@
   
   .button-contact {
     display: flex;
-    justify-content: center; /* Center the button horizontally */
-    align-items: center; /* Center the button vertically */
-    margin-top: 15px;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 0px;
     padding: 0;
-    width: 100%; /* Ensures that flexbox can center the button horizontally */
+    width: 100%; 
   }
   
   button {

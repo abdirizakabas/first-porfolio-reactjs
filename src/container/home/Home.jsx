@@ -10,7 +10,18 @@ const Home = () => {
   return (
     <section className='home' id="home">
       <div className="home_text">
-        <h1>hello, i'am abdrizak abas<br/>
+        <Animate play
+          duration={0.5}
+          delay={0.02}
+          start={{
+            transform:"translateY(-540px)",
+          }}
+          end={{
+            transform:"translateY(0px)"
+          }}
+
+        >
+               <h1>hello, i'am abdrizak abas<br/>
           <span className='second-color'>computer science student with second year</span>
           <br/>
          
@@ -18,6 +29,8 @@ const Home = () => {
         
         
         </h1>
+        </Animate>
+   
  
     
       </div>

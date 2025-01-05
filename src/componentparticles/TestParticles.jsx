@@ -36,7 +36,7 @@ const TestParticles = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 150,
               duration: 0.5,
             },
           },

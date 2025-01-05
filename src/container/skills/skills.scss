@@ -8,25 +8,31 @@
       color:#fc1111;
      
       gap: 2rem;
+      h3{
+        font-size: 20px;
+      }
   
       .skill-content-wrapper {
        
         border-radius: 8px;
         padding: 1.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+        transition: transform 0.3s ease; 
   
         &:hover {
           transform: translateY(-10px);
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        
+          
         }
   
         .skill-conten-label {
-          font-size: 1.5rem;
+          font-size: larger;
           font-weight: bold;
-          color: #ffffff;
+          color: #fbf8f8;
           margin-bottom: 1rem;
+          
         }
+       
   
         .skills-content-name {
           display: flex;
@@ -36,13 +42,17 @@
           p {
             margin: 0 0 0.5rem;
             font-size: 1rem;
-            color: #555;
+            color: #efe7e7;
+            justify-content:center;
+            align-items: center;
+            margin-left: -300px;
           }
   
           .rc-progress-line {
             width: 100%;
-            height: 8px;
+            height: 7px;
             border-radius: 4px;
+         
           }
   
           .rc-progress-line-path {
