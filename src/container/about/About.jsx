@@ -68,17 +68,21 @@ const About = () => {
                </ul>
                 </Animate></div>
         <div className="about_content_servicewrapper">
-          <div className='about_content_servicewrapper_innercontent'>
+  
+          
+        
+         </div>
+         <div className='about_content_servicewrapper_innerContent'>
           <div><SiHtml5 size={60} color='#fc1111'/></div>
           <div><SiTailwindcss size={60} color='#fc1111'/></div>
           <div><SiJavascript size={60} color='#fc1111'/></div>
           <div>< SiCplusplus size={60} color='#fc1111'/></div>
           </div>
-          
-        
-         </div>
       </div>
+   
+ 
     </section>
+    
    
     </>
   

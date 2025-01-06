@@ -17,7 +17,7 @@
         color:#fc1111;
         font-size: 20px;
         margin-top: 6px;
-        margin-left:- 75%;
+        margin-left:- 66%;
         margin-top: 0;
         &:hover{
           color: rgb(139, 139, 139);
@@ -25,7 +25,7 @@
         
       }
       p{
-        margin-left:- 5%;
+        margin-left:- 5.7%;
         margin-top: 6px;
         font-size: 15px;
         font-weight: 600;
@@ -38,7 +38,7 @@
       h3{
         color:#fc1111;
         font-size: 20px;
-        margin-left: -89%;
+        margin-left: -85%;
         margin-top: 20px;
         margin-bottom: 8px;
         &:hover{
@@ -56,7 +56,7 @@
        
       }
       .item-value{
-        margin-left: -99.4%;
+        margin-left: -98.4%;
       
       }
       &:hover{
@@ -64,21 +64,59 @@
         font-size: 10px;
         
         transform: translate(10px)    }
-      &_servicewrapper {
-        &_innercontern {
-          margin-right: px;
-          width: 350px;
-          height: 350px;
-          background: radial-gradient(circle, #fc1111 180px, transparent);
-          position: relative;
-          border-radius: 58%;
-          border: 1.5px solid #fc1111;
-        }
-      }
+
       &_personalWrapper{
         display: flex;
       }
   }
 
-}
 
+
+  .about_content_servicewrapper_innerContent {
+    width: 340px;
+    height: 340px;
+    margin-right: 100px;
+    margin-top: 30px;
+    background: radial-gradient(180px, #fc1111 , transparent 90%);
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    border: 0.5px solid #fc1111;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .about_content_servicewrapper_innerContent div {
+   
+    margin-bottom: 10px;
+    
+    border-radius: 0%;
+    position: absolute;
+    animation: rotate 5s linear infinite;
+  }
+  
+  .about_content_servicewrapper_innerContent div:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .about_content_servicewrapper_innerContent div:nth-child(2) {
+    animation-delay: 1.25s;
+  }
+  
+  .about_content_servicewrapper_innerContent div:nth-child(3) {
+    animation-delay: 2.5s;
+  }
+  
+  .about_content_servicewrapper_innerContent div:nth-child(4) {
+    animation-delay: 3.75s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translate(145px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(145px) rotate(-360deg);
+    }
+  }
+}  
